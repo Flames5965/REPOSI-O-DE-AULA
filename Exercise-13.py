@@ -3,7 +3,7 @@
 #Para mulheres: (62.1*h) - 44.7
 if __name__ == '__main__':
     print("Olá,calculo seu peso ideal baseado na altura, vai ser um prazer lhe ajudar!!😎")
-    Altura = float(input("Insira a sua altura:"))
+    Altura = float(input("Insira a sua altura(Use esse formato 0.00):"))
 
     Gender = input("Digite o seu gênero, insira (M) para macho, ou (F) para fêmea: ")
     if Gender== 'M':
